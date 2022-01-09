@@ -1,0 +1,25 @@
+body {background: #f2f2f2;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;}
+#header {width:1000px; height: 50px;background: #517FA4; margin:auto;margin-top:30px;padding:5px 20px 5px 20px;border-radius: 3px;}
+#logo {float: left;width:auto;padding:10px 20px 5px 0;color:#f2f2f2;font-size: 20px}
+#header ul {float:right;padding:0;margin: 0;}
+#header ul a li {font-size: 15px;color: #fff; padding:10px 20px 12px 20px;margin:5px 0 0 10px;list-style: none;display: inline-block;border-radius: 3px;background: #303030}
+#header ul a li:hover,#header ul a li.active {background: #B40404}
+#wrapper {width:960px;padding: 20px 19px 0px 19px;background: #fff;border:1px solid #e1e1e1;border-top: none;margin:auto;color:#666;min-height: 500px;margin-bottom: 50px;}
+#left {width:450px;float: left;}
+#right {width:450px;float: right;}
+#wrapper h1 {font-size: 24px;color:#666;line-height: 1.6em;font-weight: normal;margin-top:1px;padding-top: 1px;}
+#intro h1 {font-size: 24px;color:#666;line-height: 1.6em;font-weight: normal;margin-top:1px;padding-top: 1px;}
+#intro ul {padding: 0;margin: 0;}
+#intro ul li {list-style: none;padding:5px 0 5px 0;font-size: 15px;}
+#intro p {font-size: 14px;color:#666;line-height: 1.6em;font-weight: normal;margin-top:1px;padding-top: 1px;}
+#encode_form {padding:20px 20px 20px 20px;background: #fafafa;border:1px solid #e1e1e1;margin-bottom: 20px;}
+/* Encoding and decoding form */
+#file {margin-bottom: 10px; width: 200px;}
+#key {margin-bottom: 10px;padding:5px 10px 5px 10px; font-size: 14px;border: 1px solid #e1e1e1;width:180px;}
+#inputarea {width:500px;height:200px;margin-bottom:10px;padding:10px 10px 10px 10px;border:1px solid #e1e1e1;color: #666;font-size: 14px;font-family:"lucida grande",tahoma,verdana,arial,sans-serif;resize:none;}
+#submit {background: #517FA4;border:none;border-radius: 3px;padding:6px 15px 7px 15px;color: #fff;font-size: 15px;cursor: pointer;}
+#submit:hover {background: #5170A4}
+#info {font-size: 13px;color:#f00;margin-left: 20px;}
+#error {padding:20px 20px 20px 20px; background: #F6CECE; border: 1px solid #B40404;margin-bottom: 20px;}
+#error li {list-style: none;font-size: 14px; color: #B40404; line-height: 1.4em;}
+#error h3 {font-size: 20px; line-height: 1.6em;padding: 1px 0 0 0;margin: 1px 0 0 0;font-weight: normal; color:#B40404;}
